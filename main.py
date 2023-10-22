@@ -78,7 +78,7 @@ async def on_message(message):
         return
 
     if message.content.startswith('!status'):
-        await message.channel.send('正在检查服务器状态...')
+        await message.channel.send('正在?...')
 
 token = 'you_discord_bot_token'
 client.run(token)
